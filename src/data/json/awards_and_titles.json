@@ -1,0 +1,52 @@
+{
+    "achievements_and_recognition": [ 
+        {
+            "tamil": {
+                "icon" :"<MdOutlineBloodtype />",
+                "title": "இரத்த தான சேவை",
+                "description": "அகில இந்திய யாதவர் பாதுகாப்பு பேரவை 'இரத்த தான சாம்பியன்' என்ற பெயரில் இரத்த தான சேவையை முன்னெடுத்து வருகிறது. இந்த முயற்சியின் மூலம் தினமும் சராசரியாக 5 யூனிட் இரத்தம் வழங்கப்படுகிறது."
+            },
+            "english": {
+                "title": "Blood Donation Initiative",
+                "description": "The All India Yadava Protection Council runs a blood donation initiative under the name 'Blood Donation Champion'. Through this initiative, an average of 5 units of blood are donated daily by the members of the organization."
+            }
+        },
+        {
+            "tamil": {
+                "title": "தேரோட்டத் திருவிழாவில் மரக்கன்றுகள் வழங்கல்",
+                "description": "தேரோட்ட திருவிழா காலத்தில் மரக்கன்றுகள் வழங்கப்பட்டது."
+            },
+            "english": {
+                "title": "Tree Sapling Distribution — Therottam Festival",
+                "description": "Tree saplings were distributed as part of the Therotta festival celebrations."
+            }
+        },
+        {
+            "tamil": {
+                "title": "கௌரவ டாக்டர் பட்டம்",
+                "description": "தியாகி R.V. அனந்தகிருஷ்ணன் டிரஸ்ட் மேற்கொண்ட சமூக சேவைகளை பாராட்டி, அமெரிக்கன் குளோபல் யுனிவர்சிட்டி நிறுவனத்தால் கௌரவ டாக்டர் பட்டம் வழங்கப்பட்டது."
+            },
+            "english": {
+                "title": "Honorary Doctorate Award",
+                "description": "The social service activities of Thyagi R.V. Anantha Krishnan Trust were recognized with an Honorary Doctorate Award from American Global University."
+            }
+        },
+        {
+            "tamil": {
+                "title": "உறுப்பு தான ஒப்புதல்",
+                "description": "புரட்சித்தலைவி அம்மாவின் 64வது பிறந்தநாள் விழாவில், டாக்டர் ராஜன் அவர்கள் உடல் உறுப்புகள் தானம் செய்வதற்கான ஒப்புதலை வழங்கினார்."
+            },
+            "english": {
+                "title": "Organ Donation Commitment",
+                "description": "During the 64th birthday celebration of Puratchi Thalaivi Amma, Dr. Rajan gave his consent for body organ donation, promoting awareness and social responsibility."
+            }
+        }
+    ],
+    "contact_details": {
+        "email": "kingmarine2011@gmail.com",
+        "phone": [
+            "8220485889",
+            "8220110226"
+        ]
+    }
+}

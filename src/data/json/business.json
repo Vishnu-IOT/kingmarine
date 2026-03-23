@@ -1,0 +1,71 @@
+{
+  "business_expansion": [
+    {
+      "year": "2020",
+      "tamil": "கிங் மரைன் 1 மூலம் கப்பல் சேவைகள் தொடங்கப்பட்டது",
+      "english": "Ship services were started through King Marine 1"
+    },
+    {
+      "year": "2021",
+      "tamil": "கிங் மரைன் சர்வீசஸ் மூலம் டிரான்ஸ்போர்ட் சர்வீசஸ் நிறுவனம் தொடங்கப்பட்டது",
+      "english": "A transport services company was started under King Marine Services"
+    }
+  ],
+  "organizations": [
+    {
+      "year": "2014",
+      "tamil": "அகில இந்திய யாதவர் பாதுகாப்பு பேரவை தொடங்கப்பட்டது",
+      "english": "All India Yadava Protection Council was established"
+    },
+    {
+      "year": "2015",
+      "trust_details": {
+        "tamil": {
+          "name": "மரம் வரம் அறக்கட்டளை",
+          "founder_thalaivar": "தலைவர்: டாக்டர் கேப்டன் P.E.J. ராஜன், M.A., LL.B."
+        },
+        "english": {
+          "name": "Maram Varam Trust",
+          "founder_thalaivar": "Founder: Dr. Capt. P.E.J. Rajan, M.A., LL.B."
+        }
+      }
+    },
+    {
+      "year": "2015",
+      "trust_details": {
+        "tamil": {
+          "name": "தியாகி R.V. அனந்தகிருஷ்ணன் டிரஸ்ட்",
+          "founder_thalaivar": "நிறுவனர் மற்றும் தலைவி: திருமதி R.V.A. ரேவதி குமாரி",
+          "advisor": "ஆலோசகர்: டாக்டர் கேப்டன் P.E.J. ராஜன், M.A., LL.B."
+        },
+        "english": {
+          "name": "Thyagi R.V. Anantha Krishnan Trust",
+          "founder_thalaivar": "Founder and Chairperson: Mrs. R.V.A. Revathi Kumari",
+          "advisor": "Advisor: Dr. Capt. P.E.J. Rajan, M.A., LL.B."
+        }
+      }
+    }
+  ],
+  "social_service": [
+    {
+      "tamil": "சுமார் 50 பொருளாதார ரீதியாக பின்தங்கிய மக்களுக்கு உணவு உதவி வழங்கப்பட்டது.",
+      "english": "Distributed food assistance to approximately 50 economically disadvantaged individuals."
+    },
+    {
+      "tamil": "ஏழை மாணவர்களுக்கு புத்தகங்கள், உடைகள் வழங்கினார்",
+      "english": "Provided books and uniforms to poor students"
+    },
+    {
+      "tamil": "கல்வி கட்டண உதவி வழங்கினார்",
+      "english": "Provided financial support for education fees"
+    },
+    {
+      "tamil": "மூத்த குடிமக்கள் மற்றும் விதவை பெண்களுக்கு இலவசமாக சேலை மற்றும் வேட்டி வழங்கப்பட்டது.",
+      "english": "Distributed free sarees and dhotis to senior citizens and widowed women."
+    },
+    {
+      "tamil": "தேரோட்ட திருவிழா காலத்தில் மரக்கன்றுகள் வழங்கப்பட்டது.",
+      "english": "Tree saplings were distributed as part of the Therotta festival celebrations."
+    }
+  ]
+}

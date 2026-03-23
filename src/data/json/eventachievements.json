@@ -1,0 +1,57 @@
+{
+    "organization_details": [
+        {
+            "tamil": {
+                "title": "அமைப்பு தொடக்கம் மற்றும் வளர்ச்சி",
+                "description": "அகில இந்திய யாதவர் பாதுகாப்பு பேரவை 2014 ஆம் ஆண்டு தொடங்கப்பட்டது. இன்று வரை, இந்த அமைப்பில் சுமார் 13 லட்சம் மக்கள் இணைந்துள்ளனர். தமிழ்நாடு முழுவதும் சுமார் 4500 விருப்ப தொண்டர்கள் செயல்பட்டு வருகின்றனர்."
+            },
+            "english": {
+                "title": "Establishment and Growth",
+                "description": "The All India Yadava Protection Council was established in 2014. To date, the organization has grown to include approximately 13 lakh members. Across Tamil Nadu, around 4,500 volunteers are actively involved in its activities."
+            }
+        },
+        {
+            "tamil": {
+                "title": "இரத்த தான சேவை",
+                "description": "அகில இந்திய யாதவர் பாதுகாப்பு பேரவை 'இரத்த தான சாம்பியன்' என்ற பெயரில் இரத்த தான சேவையை முன்னெடுத்து வருகிறது. இந்த முயற்சியின் மூலம் தினமும் சராசரியாக 5 யூனிட் இரத்தம் வழங்கப்படுகிறது."
+            },
+            "english": {
+                "title": "Blood Donation Initiative",
+                "description": "The All India Yadava Protection Council runs a blood donation initiative under the name 'Blood Donation Champion'. Through this initiative, an average of 5 units of blood are donated daily by the members of the organization."
+            }
+        }
+    ],
+  "events_and_support": [
+    {
+      "title": {
+        "english": "Financial Support for Orphaned Girls",
+        "tamil": "அனாதை சிறுமிகளுக்கான நிதி உதவி"
+      },
+      "description": {
+        "english": "At Vathiripatty, Annavasal village, the All India Yadava Protection Council identified three girl children who had lost their father. The council provided financial assistance of ₹1,00,000 each, totaling ₹3,00,000, which was deposited as fixed deposits (FD). Additionally, the council extended continuous educational support for their future.",
+        "tamil": "புதுக்கோட்டை மாவட்டம் அன்னவாசல் அருகிலுள்ள வத்திரிப்பட்டி கிராமத்தில் தந்தையை இழந்த மூன்று சிறுமிகளை ஆல் இந்தியா யாதவ பாதுகாப்பு பேரவை அடையாளம் கண்டது. அவர்களுக்கு தலா ₹1,00,000 வீதம் மொத்தம் ₹3,00,000 நிதி உதவி வழங்கப்பட்டு, அது நிலையான வைப்பு (FD) ஆக செலுத்தப்பட்டது. மேலும், அவர்களின் எதிர்கால கல்விக்கான தொடர்ந்து ஆதரவும் வழங்கப்பட்டது."
+      }
+    },
+    {
+      "title": {
+        "english": "Protest for Justice",
+        "tamil": "நீதிக்கான போராட்டம்"
+      },
+      "description": {
+        "english": "In Sivagangai, following the death of a school child, the All India Yadava Protection Council organized a protest (porattam) demanding justice and raising awareness about the incident.",
+        "tamil": "சிவகங்கை மாவட்டத்தில் ஒரு பள்ளி மாணவன் உயிரிழந்த சம்பவத்தைத் தொடர்ந்து, ஆல் இந்தியா யாதவ பாதுகாப்பு பேரவை நீதிக்காக போராட்டம் நடத்தி, அந்த சம்பவம் குறித்து விழிப்புணர்வை ஏற்படுத்தியது."
+      }
+    },
+    {
+      "title": {
+        "english": "Krishna Jayanthi Celebration 2022",
+        "tamil": "கிருஷ்ண ஜெயந்தி விழா 2022"
+      },
+      "description": {
+        "english": "During the 2022 Krishna Jayanthi celebration in Vellore, the All India Yadava Protection Council actively participated and organized flag hoisting events at various locations.",
+        "tamil": "2022 ஆம் ஆண்டு வேலூரில் நடைபெற்ற கிருஷ்ண ஜெயந்தி விழாவில், ஆல் இந்தியா யாதவ பாதுகாப்பு பேரவை பல்வேறு இடங்களில் கொடி ஏற்றி விழாவை சிறப்பாகக் கொண்டாடியது."
+      }
+    }
+  ]
+
+}

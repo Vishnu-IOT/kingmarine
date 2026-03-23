@@ -1,0 +1,44 @@
+{
+  "activities": [
+    {
+      "organization": {
+        "tamil": {
+          "name": "மரம் வரம் அறக்கட்டளை",
+          "location": "புதுக்கோட்டை (குமாரகிரி) - 628103, தூத்துக்குடி மாவட்டம்",
+          "president": "தலைவர்: P.E.J. ராஜன்",
+          "description": "மரம் வரம் அறக்கட்டளை என்பது சமூக நலனைக் குறிக்கோளாகக் கொண்டு செயல்படும் ஒரு சேவை அமைப்பாகும். இவ்வமைப்பு குறிப்பாக மனநலம் பாதிக்கப்பட்ட, பாதுகாப்பின்றி சாலைகளில் வாழும் நபர்களை அடையாளம் கண்டு, அவர்களுக்கு பாதுகாப்பான வாழ்வாதாரத்தை வழங்கும் பணியில் ஈடுபட்டுள்ளது.",
+          "activity": "தமிழ்நாடு காவல்துறையின் உதவியுடன் மனநலம் பாதிக்கப்பட்ட நபர்களை கண்டறிந்து, அவர்களை பாதுகாப்பான இடங்களுக்கு கொண்டு வந்து, உணவு, உடை, தங்குமிடம் மற்றும் அடிப்படை மருத்துவ உதவிகளை வழங்குகிறது. மேலும், அவர்களின் உடல் மற்றும் மனநல முன்னேற்றத்திற்காக தொடர்ந்து பராமரிப்பு மற்றும் ஆதரவு வழங்கப்படுகிறது.",
+          "mission": "சமூகத்தில் புறக்கணிக்கப்பட்ட மற்றும் உதவி தேவைப்படும் நபர்களுக்கு பாதுகாப்பு, பராமரிப்பு மற்றும் மரியாதையுடன் வாழும் வாய்ப்பை வழங்குவது.",
+          "vision": "மனநலம் பாதிக்கப்பட்ட நபர்கள் பாதுகாப்பாகவும் மரியாதையுடனும் வாழக்கூடிய சமுதாயத்தை உருவாக்குவது."
+        },
+        "english": {
+          "name": "Maram Varam Trust",
+          "location": "Pudukottai (Kumaragiri) - 628103, Thoothukudi District",
+          "president": "President: P.E.J. Rajan",
+          "description": "Maram Varam Trust is a social welfare organization dedicated to serving vulnerable sections of society. The trust primarily focuses on identifying and supporting mentally affected individuals who are often abandoned or living without proper care on the streets.",
+          "activity": "With the support of the Tamil Nadu Police, the organization identifies mentally affected individuals, rescues them, and provides them with a safe environment. The trust ensures basic necessities such as food, clothing, shelter, and medical care. Continuous support and rehabilitation efforts are also carried out to improve their physical and mental well-being.",
+          "mission": "To provide care, protection, and a dignified life to neglected and vulnerable individuals in society.",
+          "vision": "To build a compassionate society where mentally affected individuals can live safely with dignity and proper care."
+        }
+      }
+    },
+    {
+      "tamil": "ஒவ்வொரு மாதமும் ஒருமுறை சுகாதார பரிசோதனை முகாம் நடத்தப்படுகிறது",
+      "english": "A health check-up camp is conducted once every month"
+    },
+    {
+      "tamil": {
+        "title": "ஆண்டு விழா மற்றும் மாணவர் விருதுகள்",
+        "description": "ஒவ்வொரு ஆண்டும் மரம் வரம் அறக்கட்டளையின் ஆண்டு விழா சிறப்பாகக் கொண்டாடப்படுகிறது. இந்த விழாவில் சமூக சேவைகள், கல்வி மற்றும் பல்வேறு துறைகளில் சிறந்து விளங்கும் மாணவர்களுக்கு பாராட்டு மற்றும் விருதுகள் வழங்கப்படுகின்றன. இந்த நிகழ்ச்சி மாணவர்களை ஊக்குவிக்கும் வகையில் அமைந்துள்ளது மற்றும் அவர்களின் திறமைகளை வெளிக்கொணர உதவுகிறது. சமூகத்தில் நல்ல முன்னுதாரணங்களை உருவாக்குவது இந்த விழாவின் முக்கிய நோக்கமாகும்.",
+        "english": {
+          "title": "Annual Day Celebration and Student Awards",
+          "description": "The Maram Varam Trust celebrates its annual day every year in a grand manner. During this event, students who have excelled in academics, social service, and other fields are recognized and honored with awards. This program serves as a source of motivation for students and encourages them to achieve greater success. The celebration also highlights the trust’s commitment to promoting education and recognizing young talent in society."
+        }
+      }
+    },
+    {
+      "tamil": "பொருளாதார ரீதியாக பின்தங்கிய மாணவர்களுக்கு சைக்கிள்கள் வழங்கப்படுகின்றன",
+      "english": "Bicycles are provided to underprivileged students"
+    }
+  ]
+}

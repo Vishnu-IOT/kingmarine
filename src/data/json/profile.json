@@ -1,0 +1,78 @@
+{
+    "name": {
+        "tamil": "ஜெ. ராஜன்",
+        "english": "J. Rajan"
+    },
+    "full_title": {
+        "tamil": "டாக்டர் கேப்டன் பி.இ.ஜெ. ராஜன், எம்.ஏ., எல்.எல்.பி.",
+        "english": "Dr. Capt. P.E.J. Rajan, M.A., LL.B."
+    },
+    "date_of_birth": {
+        "tamil": "01/06/1961 – தூத்துக்குடி மாவட்டம்",
+        "english": "01/06/1961 – Thoothukudi District"
+    },
+    "education": [
+        {
+            "tamil": "டி.டி.டி.ஏ உயர்நிலைப் பள்ளியில் கல்வி, தூத்துக்குடி",
+            "english": "Studied at T.D.T.A High School, Thoothukudi "
+        },
+        {
+            "tamil": "செயின்ட் ஆண்டனீஸ் கல்வி, நாகப்பட்டினம்",
+            "english": "Studied at St. Antony’s Higher Secondary School, Nagapattinam"
+        },
+        {
+            "tamil": "வி.ஓ.சி இலவச பல்கலைக்கழக வகுப்பில் PUC முடித்தார்",
+            "english": "Completed PUC through VOC Free University Class"
+        }
+    ],
+    "career": [
+        {
+            "tamil": "நேவியில் சேர்ந்தார்",
+            "english": "Joined Navy"
+        },
+        {
+            "tamil": "7 ஆண்டுகள் பணியாற்றினார்",
+            "english": "Served for 7 years"
+        },
+        {
+            "tamil": "மெர்சன்ட் நேவியில் சேர்ந்தார்",
+            "english": "Joined Merchant Navy"
+        },
+        {
+            "tamil": "கேப்டனாக பணியாற்றினார்",
+            "english": "Worked as Captain"
+        }
+    ],
+    "business": [
+        {
+            "tamil": "12-12-2012 அன்று கிங் மரைன் சர்வீசஸ் தொடங்கப்பட்டது",
+            "english": "Started King Marine Services on 12-12-2012"
+        },
+        {
+            "tamil": "சென்னையில் பெட்ரோல் பங்க் தொடங்கப்பட்டது",
+            "english": "Started Petrol Bunk in Chennai"
+        }
+    ],
+    "petrol_bunks": [
+        {
+            "year": "2017",
+            "tamil": "பெட்ரோல் பங்க் (தூத்துக்குடி)",
+            "english": "Petrol Bunk at Thoothukudi"
+        },
+        {
+            "year": "2018",
+            "tamil": "பெட்ரோல் பங்க் (திருமங்கலம்)",
+            "english": "Petrol Bunk at Thirumagalam"
+        },
+        {
+            "year": "2019",
+            "tamil": "அரசு மருத்துவக் கல்லூரி அருகில் பெட்ரோல் பங்க்(சிந்தாமணி)",
+            "english": "Petrol Bunk at Chinthamani near Government Medical College"
+        },
+        {
+            "year": "2020",
+            "tamil": "பெட்ரோல் பங்க் (திருபுவனம்)",
+            "english": "Petrol Bunk at Thirupuvanam"
+        }
+    ]
+}
