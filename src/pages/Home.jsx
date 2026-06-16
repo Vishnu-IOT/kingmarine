@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { profile } from '../data/data'
 import { useLang, t } from '../context/LanguageContext'
 import RevealOnScroll from '../components/RevealOnScroll'
+import { RiFacebookCircleLine, RiYoutubeLine } from 'react-icons/ri'
+import { IoLogoYoutube } from 'react-icons/io5'
 
 export default function Home() {
   const { lang } = useLang()
@@ -95,11 +97,69 @@ export default function Home() {
     }
   }, [])
 
+  useEffect(() => {
+    const canvas = canvasRef.current
+    if (!canvas) return
+    const ctx = canvas.getContext('2d')
+    const TOTAL_FRAMES = 300
+    const FRAME_PATH = (n) => `/ship-frame/ezgif-frame-${String(n).padStart(3, '0')}.jpg`
+
+    const resize = () => {
+      canvas.width = canvas.offsetWidth
+      canvas.height = canvas.offsetHeight
+    }
+    resize()
+    window.addEventListener('resize', resize)
+
+    const frames = []
+    let currentFrame = 0
+
+    const drawFrame = (index) => {
+      const img = frames[index]
+      if (!img || !img.complete) return
+      const { width: cw, height: ch } = canvas
+      const scale = Math.max(cw / img.naturalWidth, ch / img.naturalHeight)
+      const sw = img.naturalWidth * scale
+      const sh = img.naturalHeight * scale
+      const sx = (cw - sw) / 2
+      const sy = (ch - sh) / 2
+      ctx.clearRect(0, 0, cw, ch)
+      ctx.drawImage(img, sx, sy, sw, sh)
+    }
+
+    for (let i = 0; i < TOTAL_FRAMES; i++) {
+      const img = new Image()
+      img.src = FRAME_PATH(i + 1)
+      img.onload = () => { if (i === 0) drawFrame(0) }
+      frames.push(img)
+    }
+
+    const section = canvas.closest('section')
+    const onScroll = () => {
+      const sectionTop = section?.offsetTop ?? 0
+      const sectionHeight = section?.offsetHeight ?? window.innerHeight
+      const scrollable = sectionHeight - window.innerHeight
+      const progress = Math.min(Math.max((window.scrollY - sectionTop) / Math.max(scrollable, 1), 0), 1)
+      const frameIndex = Math.min(Math.floor(progress * (TOTAL_FRAMES - 1)), TOTAL_FRAMES - 1)
+      if (frameIndex !== currentFrame) {
+        currentFrame = frameIndex
+        drawFrame(currentFrame)
+      }
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true })
+
+    return () => {
+      window.removeEventListener('resize', resize)
+      window.removeEventListener('scroll', onScroll)
+    }
+  }, [])
+
 
   // ── UI strings sourced entirely from JSON via t() ──────────────────────
   const ui = {
     english: {
-      tagline: 'Est. Dec 12 . 2012 · Thoothukudi, Tamil Nadu',
+      tagline: 'Est. Dec 12 . 2012 · Thoothukudi, TamilNadu',
       heroTitle: (
         <h1 className="hero-name">
           <span className="hero-small">Dr. Capt.</span>
@@ -224,11 +284,22 @@ export default function Home() {
         <div className="hero-ocean">
           {/* <canvas ref={canvasRef} /> */}
           <div className="hero-video">
-            <video autoPlay muted loop playsInline>
+            <video autoPlay muted loop playsInline style={{
+              width: "100%", height: '100%', objectFit: 'cover'
+            }}>
               <source src="/ship.mp4" type="video/mp4" />
             </video>
+            <img
+              src="/mobile_ship.jpeg"
+              alt="Ship"
+              className="mobile-image"
+            />
           </div>
         </div>
+
+        {/* <div className="hero-ocean">
+          <canvas ref={canvasRef} style={{ width: '100%', height: '100%', display: 'block' }} />
+        </div> */}
 
         <div className="hero-overlay" />
 
@@ -251,6 +322,37 @@ export default function Home() {
                 {u.about}
               </Link>
             </div>
+
+            {/* <div className="hero-cta" style={{ gap: ' 40px' }}>
+              <div className="icon-wrapper">
+                <a href="https://www.youtube.com/@mpeoplesofficial">
+                  <IoLogoYoutube className="icon youtube" />
+                </a>
+                <span className="tooltip">YouTube</span>
+              </div>
+
+              <div className="icon-wrapper">
+                <a href="https://www.facebook.com/people/MPeoples-Business-Solutions-Pvt-Limited/61561349522345/">
+                  <RiFacebookCircleLine className="icon facebook" />
+                </a>
+                <span className="tooltip">Facebook</span>
+              </div>
+            </div> */}
+            {/* <div className="hero-stats">
+              {u.stats.map(([num, label]) => (
+                <div className="hero-stat" key={label}>
+                  <span className="num">{num}</span>
+                  <span className="label">{label}</span>
+                </div>
+              ))}
+            </div> */}
+          </div>
+
+          {/* RIGHT SIDE */}
+          <div className="hero-right">
+            <div className="hero-image">
+              <img src="/profile.jpeg" alt="Captain" />
+            </div>
             <div className="hero-stats">
               {u.stats.map(([num, label]) => (
                 <div className="hero-stat" key={label}>
@@ -258,13 +360,6 @@ export default function Home() {
                   <span className="label">{label}</span>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* RIGHT SIDE */}
-          <div className="hero-right">
-            <div className="hero-image">
-              <img src="/profile21.png" alt="Captain" />
             </div>
           </div>
 

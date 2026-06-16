@@ -138,7 +138,7 @@ export default function About() {
       <section className="section">
         <div className="about-profile-section">
           {/* PROFILE CARD */}
-          <RevealOnScroll direction="right" delay={100}>
+          <RevealOnScroll direction="left" delay={30}>
             <div className="profile-card">
               <div className="profile-avatar">
                 <img src="/profile.jpeg" alt="Dr. Capt. P.E.J. Rajan" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top center', display: 'block' }} />

@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom'
 import { awards } from '../data/data'
 import { useLang } from '../context/LanguageContext'
 import { AiOutlineMail } from 'react-icons/ai'
-import { FaPhone } from 'react-icons/fa6'
+import { FaPhone, FaYoutube } from 'react-icons/fa6'
+import { RiFacebookCircleLine } from 'react-icons/ri'
+import { IoLogoYoutube } from 'react-icons/io5'
 
 export default function Footer() {
   const { lang } = useLang()
@@ -25,7 +27,11 @@ export default function Footer() {
         <div className="footer-brand">
           <div className="logo-title">{u.brand}</div>
           <p>{u.desc}</p>
-          <div style={{ paddingTop: "50px" }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '20px', paddingTop: "10px" }}>
+            <a href='https://www.youtube.com/@mpeoplesofficial' style={{ fontSize: '25px', textDecoration: 'none', color: 'red' }}><IoLogoYoutube /></a>
+            <a href='https://www.facebook.com/king.marine.73/' style={{ fontSize: '27px', textDecoration: 'none', color: 'blue' }}><RiFacebookCircleLine /></a>
+          </div>
+          <div style={{ paddingTop: "30px" }}>
             <Link to="/contact" className="btn-primary" style={{ background: 'var(--gold-light)', color: 'var(--navy)' }}>{u.ctaBtn}</Link>
           </div>
         </div>

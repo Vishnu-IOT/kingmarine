@@ -5,6 +5,8 @@ import RevealOnScroll from '../components/RevealOnScroll'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaLocationDot, FaPhone } from 'react-icons/fa6'
 import { GiBattleship } from 'react-icons/gi'
+import { IoLogoYoutube, IoShareSocialSharp } from 'react-icons/io5'
+import { RiFacebookCircleLine } from 'react-icons/ri'
 
 export default function Contact() {
   const { lang } = useLang()
@@ -29,7 +31,7 @@ export default function Contact() {
   }
 
   const sendMail = ({
-    email = "vishnubharani153@gmail.com",
+    email = "kingmarine2011@gmail.com",
     subject = "Enquiry",
     body = formatBody(form)
   } = {}) => {
@@ -108,6 +110,10 @@ export default function Contact() {
                 <div className="contact-item">
                   <div className="contact-icon"><GiBattleship style={{ fontSize: '2rem', textAlign: 'center' }} /></div>
                   <div className="contact-item-text"><span className="label">{u.foundedLabel}</span><span className="value">{u.foundedVal}</span></div>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginLeft: '30px' }}>
+                  <a href='https://www.youtube.com/@mpeoplesofficial' style={{ fontSize: '32px', textDecoration: 'none', color: 'red' }}><IoLogoYoutube /></a>
+                  <a href='https://www.facebook.com/king.marine.73/' style={{ fontSize: '33px', textDecoration: 'none', color: 'blue' }}><RiFacebookCircleLine /></a>
                 </div>
               </div>
             </RevealOnScroll>
